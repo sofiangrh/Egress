@@ -2,7 +2,11 @@
 Murrine and Pixbuff engines. Includes: gtk, openbox3, wallpaper. 
 
 # Screenshot
+![](http://s1.postimg.org/mm8fhvbdb/126505_1.jpg)
 
+![](http://s8.postimg.org/at7mpiir9/126505_2.jpg)
+
+![](http://s16.postimg.org/3l936evwl/126505_3.jpg)
 
 # Changelog:
 - 7-27 ***FINAL*** Changes;
@@ -25,9 +29,7 @@ Redesign tabs, remove murrine scale replaced with pixmap range. So, I could crea
 Redesign of Panel buttons Reconfigure panelrc
 
 - 6-25 changes;
-1. Menu window redefined, finally got the art deco look, I was after.
-2. Background darkened
-3. Unselected tab, redefined
+Menu window redefined, finally got the art deco look, I was after. Background darkened Unselected tab, redefined
 
 - 6-22 changes; 
 Fix gtk line error Menu window changes.
