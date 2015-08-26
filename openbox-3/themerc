@@ -1,0 +1,147 @@
+# Openbox3 theme-"Egress"
+# Modified by daman-free to modify
+
+# Window geometry
+padding.width: 1
+padding.height: 0
+border.width: 2
+window.client.padding.width: 1
+window.client.padding.height: 0
+window.handle.width: 0
+
+# Menu geometry
+menu.border.width: 2
+menu.overlap: 0
+
+# Border colors
+window.active.border.color: #6E6E6E
+window.inactive.border.color: #6E6E6E
+menu.border.color: #81827F
+window.active.client.color: #303030
+window.inactive.client.color: #303030
+
+window.active.title.separator.color:  #303030
+window.inactive.title.separator.color: #303030
+
+# Text shadows
+window.active.label.text.font:shadow=y:shadowtint=70:shadowoffset=1
+window.inactive.label.text.font: shadow=n
+menu.items.font:shadow=y:shadowtint=70:shadowoffset=1
+menu.title.text.font:shadow=y:shadowtint=70:shadowoffset=1
+osd.label.text.font: shadow=y:shadowtint=70:shadowoffset=1
+
+# Window title justification
+window.label.text.justify: center
+
+# Active window
+window.active.title.bg: Flat Gradient Vertical
+window.active.title.bg.color: #666666
+window.active.title.bg.colorTo: #303030
+window.active.label.bg: Parentrelative
+window.active.label.text.color: #ababab
+
+window.active.button.unpressed.bg: Raised Gradient SplitVertical border
+window.active.button.*.unpressed.bg.color: #5E7357
+window.active.button.*.unpressed.bg.color.splitTo: #6C8762
+window.active.button.*.unpressed.bg.colorTo: #5E7357
+window.active.button.*.unpressed.bg.colorTo.splitTo: #0D120C
+window.active.button.*.unpressed.image.color: #000000
+window.active.button.*.unpressed.bg.border.color: #81827F
+
+window.active.button.hover.bg: Raised Gradient SplitVertical border
+window.active.button.*.hover.bg.color: #3F4F39
+window.active.button.*.hover.bg.color.splitTo: #5D7554
+window.active.button.*.hover.bg.colorTo: #3F4F39
+window.active.button.*.hover.bg.colorTo.splitTo: #020302
+window.active.button.*.hover.bg.border.color: #81827F
+window.active.button.*.hover.image.color: #FFFFFF
+
+window.active.button.pressed.bg: Sunken Gradient Vertical border
+window.active.button.*.pressed.bg.color: #0E170B
+window.active.button.*.pressed.bg.colorTo: #6AC84A
+window.active.button.*.pressed.image.color: #FFFFFF
+window.active.button.*.pressed.bg.border.color: #81827F
+
+
+window.active.button.disabled.bg: Flat Gradient Vertical
+window.active.button.*.disabled.bg.color: #666666
+window.active.button.*.disabled.bg.colorTo: #303030
+window.active.button.*.disabled.image.color: #333333
+
+window.active.button.toggled.bg: Sunken Gradient Vertical border
+window.active.button.*.toggled.bg.color: #1E261B
+window.active.button.*.toggled.bg.colorTo: #5E7357
+
+window.active.button.toggled.hover.bg: Sunken Gradient Vertical border
+window.active.button.*.toggled.hover.bg.color: #0E170B
+window.active.button.*.toggled.hover.bg.colorTo: #6AC84A
+window.active.button.toggled.unpressed.image.color: #7A8E73
+
+
+
+# Inactive windows
+window.inactive.title.bg: Flat Gradient Vertical
+window.inactive.title.bg.color: #666666
+window.inactive.title.bg.colorTo: #303030
+
+window.inactive.label.bg: Parentrelative
+window.inactive.label.text.color: #828282
+
+window.inactive.button.unpressed.bg: Parentrelative
+window.inactive.button.unpressed.image.color: #828282
+
+window.inactive.button.pressed.bg: Parentrelative
+window.inactive.button.pressed.image.color: #888888
+
+window.inactive.button.disabled.bg: Parentrelative
+window.inactive.button.disabled.image.color: #888888
+
+window.inactive.button.toggled.bg: Parentrelative
+window.inactive.button.toggled.image.color: #888888
+
+window.inactive.button.hover.bg: Parentrelative
+window.inactive.button.hover.image.color: #45B03A
+
+# Menus
+menu.title.bg: flat gradient vertical 
+menu.title.bg.color: #666666
+menu.title.bg.colorTo: #303030
+menu.title.text.color: #ababab
+menu.title.text.justify: Center
+
+menu.items.bg: Sunken gradient interlaced
+menu.items.bg.color: #28421C
+menu.items.bg.colorTo: #458827
+menu.items.bg.interlace.color: #397221
+menu.items.bg.highlight: 256
+menu.items.bg.shadow: 256
+menu.items.text.color:#000000
+menu.items.disabled.text.color: #6B6B6B
+
+menu.items.active.bg: Sunken gradient splitvertical 
+menu.items.active.bg.color: #29531B
+menu.items.active.bg.color.splitTo: #193210
+menu.items.active.bg.colorTo: #29531B
+menu.items.active.bg.colorTo.splitTo: #336721
+menu.items.active.text.color: #AAAAAA
+
+
+#osd
+osd.border.width: 1
+osd.border.color:  #404040
+
+osd.bg: Sunken diagonal gradient
+osd.bg.color: #7E7E7E
+osd.bg.colorTo: #2C2E2B
+
+osd.hilight.bg: Sunken Gradient Vertical 
+osd.hilight.bg.color: #0E170B
+osd.hilight.bg.colorTo: #6AC84A
+osd.hilight.bg.border.color: #FFFFFF
+
+osd.unhilight.bg: flat gradient vertical
+osd.unhilight.bg.color: #444444
+osd.unhilight.bg.colorTo: #6e6e6e
+
+osd.label.bg: Parentrelative
+osd.label.text.color: #AAAAAA

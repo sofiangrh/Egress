@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Egress
+Type=X-GNOME-Metatheme
+Comment=Escape if only, for a short time
+
+[X-GNOME-Metatheme]
+GtkTheme=Egress
+Openbox3Theme=Egress
+IconTheme=default
+
